@@ -7,7 +7,6 @@
     "dev": "vuepress dev docs",
     "deploy": "bash deploy.sh",
     "build": "vuepress build docs",
-    
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -15,5 +14,9 @@
   "license": "ISC",
   "dependencies": {
     "vue-template-compiler": "^2.7.13"
+  },
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "url-loader": "^4.1.1"
   }
 }

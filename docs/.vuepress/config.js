@@ -13,14 +13,22 @@ module.exports = {
     nav: [ // 导航栏配置
       { text: '前端基础', link: '/accumulate/' },
       { text: '算法题库', link: '/algorithm/' },
-      { text: '微博', link: 'https://baidu.com' }
+      { text: 'csdn博客', link: 'https://blog.csdn.net/lu123ying' }
     ],
     sidebar: [
       {
-        title: '前端基础',
+        title: 'HTMLCSS基础',
         collapsable: true,
         children: [
-          ['/blog/HTMLCSS/01-前言&WEB标准','01-前言&WEB标准'],
+          // '/blog/js/myjava',
+          // '/blog/01-HTMLCSS/01-HTML基础'
+          ['/blog/01-HTMLCSS/01-HTML基础','HTML基础'],
+          ['/blog/02-CSS/01-CSS总结','CSS总结'],
+          // ['/blog/03-移动WEB相关/01-HTML5CSS3','HTML5CSS3'],
+          // ['/blog/04-JS/01-JavaScript基础','JavaScript基础'],
+          // ['/blog/04-JS/02-WebAPI','WebAPI'],
+          // ['/blog/04-JS/03-JavaScript高级','JavaScript高级'],
+          // ['/blog/js/myjava','JavaScript高级'],
           // '/blog/fontend/myhtml',
           // 
           // '/blog/01-frontBasics/02-认识HTML',
@@ -31,7 +39,7 @@ module.exports = {
         ]
       },
       {
-        title: '前端js基础',
+        title: 'JS基础',
         collapsable: true,
         children: [
           '/blog/js/myjava',
