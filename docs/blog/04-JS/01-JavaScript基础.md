@@ -10,8 +10,8 @@ typora-copy-images-to: media
 HTML和CSS   京东
 
 ## 课前娱乐 
-**众人皆笑我疯癫,我笑尔等看不穿**
-![一盘棋而已](media/yule-1.png)
+
+
 
 ##课前说明
 目标：掌握编程的基本思想
@@ -49,6 +49,7 @@ JavaScript高级
 **保护好自己的手**
 **控制自己的右手**
 ![键盘指法](media/jianpan-2.png)
+ <!-- <img src="./media/yule-1.png"> -->
 windows中的常用快捷键
 ![快捷键](media/kuaijiejian-3.png)
 
