@@ -2504,10 +2504,11 @@ offset 翻译过来就是偏移量， 我们使用 offset系列相关属性可�
 2. 获得元素自身的大小（宽度高度）
 
 3. 注意：返回的数值都不带单位
+<img src='./images/图片001.png'>
+<!-- ![图片001](./images/图片001.png) -->
 
-   ![图片1](./images/图片001.png)
-
-![图片2](./images/图片002.png)
+<!-- ![图片002](./images/图片002.png) -->
+<img src='./images/图片002.png'>
 
 ### 1.1.2 offset 与 style 区别
 
@@ -2703,10 +2704,9 @@ window.addEventListener('load', function() {
 
 client 翻译过来就是客户端，我们使用 client 系列的相关属性来获取元素可视区的相关信息。通过 client
 系列的相关属性可以动态的得到该元素的边框大小、元素大小等。
+<img src='./images/图片003.png'>
+<img src='./images/图片004.png'>
 
-![图片3](./images/图片003.png)
-
-![图片4](./images/图片004.png)
 
 ### 1.2.2. 淘宝 flexible.js 源码分析
 
@@ -2737,10 +2737,9 @@ client 翻译过来就是客户端，我们使用 client 系列的相关属性�
 ### 1.3.1. scroll 概述
 
 scroll 翻译过来就是滚动的，我们使用 scroll 系列的相关属性可以动态的得到该元素的大小、滚动距离等。
+<img src='./images/图片005.png'>
+<img src='./images/图片006.png'>
 
-![图片5](./images/图片005.png)
-
-![图片6](./images/图片006.png)
 
 ### 1.3.2. 页面被卷去的头部
 
@@ -2817,8 +2816,8 @@ function getScroll() {
 ```
 
 ## 1.4. 三大系列总结
+<img src='./images/图片007.png'>
 
-![图片7](./images/图片007.png)
 
 他们主要用法：
 
@@ -3214,8 +3213,7 @@ If(flag){flag = false; do something}       关闭水龙头
 touch 对象代表一个触摸点。触摸点可能是一根手指，也可能是一根触摸笔。触屏事件可响应用户手指（或触控笔）对屏幕或者触控板操作。
 
 常见的触屏事件如下：
-
-![图片1](./images/图片008.png)
+<img src='./images/图片008.png'>
 
 ### 1.3.2. 触摸事件对象（TouchEvent）
 
@@ -3224,8 +3222,7 @@ TouchEvent 是一类描述手指在触摸平面（触摸屏、触摸板等）�
 touchstart、touchmove、touchend 三个事件都会各自有事件对象。
 
 触摸事件对象重点我们看三个常见对象列表：
-
-![图片2](./images/图片009.png)
+<img src='./images/图片009.png'>
 
 > `因为平时我们都是给元素注册触摸事件，所以重点记住 targetTocuhes`
 
@@ -3270,8 +3267,7 @@ touchstart、touchmove、touchend 三个事件都会各自有事件对象。
 移动端浏览器兼容性较好，我们不需要考虑以前 JS 的兼容性问题，可以放心的使用原生 JS 书写效果，但是移动端也有自己独特的地方。比如触屏事件 touch（也称触摸事件），Android 和 IOS 都有。touch 对象代表一个触摸点。触摸点可能是一根手指，也可能是一根触摸笔。触屏事件可响应用户手指（或触控笔）对屏幕或者触控板操作。
 
 常见的触屏事件如下：
-
-![图片1](./images/图片010.png)
+<img src='./images/图片010.png'>
 
 ### 1.1.2 触摸事件对象（TouchEvent）
 
@@ -3280,8 +3276,7 @@ TouchEvent 是一类描述手指在触摸平面（触摸屏、触摸板等）�
 touchstart、touchmove、touchend 三个事件都会各自有事件对象。
 
 触摸事件对象重点我们看三个常见对象列表：
-
-![图片2](./images/图片012.png)
+<img src='./images/图片012.png'>
 
 > **因为平时我们都是给元素注册触摸事件，所以重点记住 targetTocuhes**
 
