@@ -20,38 +20,47 @@ module.exports = {
         title: 'HTMLCSS基础',
         collapsable: true,
         children: [
-          // '/blog/js/myjava',
-          // '/blog/01-HTMLCSS/01-HTML基础'
           ['/blog/01-HTMLCSS/01-HTML基础','HTML基础'],
           ['/blog/02-CSS/01-CSS总结','CSS总结'],
           ['/blog/03-移动WEB相关/01-HTML5CSS3','HTML5CSS3'],
-          ['/blog/04-JS/JavaScript基础笔记','JavaScript基础'],
-          ['/blog/04-JS/WebAPIs','WebAPI'],
-          // ['/blog/04-JS/03-JavaScript高级','JavaScript高级'],
-          // ['/blog/js/myjava','JavaScript高级'],
-          // '/blog/fontend/myhtml',
-          // 
-          // '/blog/01-frontBasics/02-认识HTML',
-          // '/blog/HTMLCSS/02-认识HTML',
-          // '/blog/01-frontBasics/01-前言&WEB标准',
-          // '/blog/01-frontBasics/01-前言&WEB标准',
-          // '/blog/01-frontBasics/01-前言&WEB标准',
+          ['/blog/03-移动WEB相关/02-移动web开发-布局','移动web开发-布局'],
         ]
       },
       {
         title: 'JS基础',
         collapsable: true,
         children: [
-          '/blog/js/myjava',
+          ['/blog/04-JS/JavaScript基础笔记','JavaScript基础'],
+          ['/blog/04-JS/WebAPIs','WebAPI'],
+          ['/blog/04-JS/JavaScript高级笔记','JavaScript高级笔记'],
+          ['/blog/04-JS/ES6基础笔记','ES6基础笔记'],
         ]
       },
-        // {
-        //   title: '分组2 后端',
-        //   collapsable: true,
-        //   children: [
-        //     '/blog/backend/myjava',
-        //   ]
-        // }
+      {
+        title: 'JQuery',
+        collapsable: true,
+        children: [
+          ['/blog/05-jquery/jQuery','jQuery基础'],
+        ]
+      },
+      {
+        title: 'Vue',
+        collapsable: true,
+        children: [
+          ['/blog/06-vue/day0-1-promise等同步异步任务相关','01-promise等同步异步任务相关'],
+          ['/blog/06-vue/Day01_webpack','02-webpack基础'],
+          ['/blog/06-vue/day0-2-vue基础','03-vue基础'],
+          ['/blog/06-vue/Day02_vue脚手架_基础API','04-vue脚手架_基础API'],
+          ['/blog/06-vue/Day03_基础API_计算属性_过滤器_侦听器_品牌管理案例','05-基础API_计算属性_过滤器_侦听器'],
+          ['/blog/06-vue/Day04_vue组件_组件通信_todo案例','06-组件通信'],
+          ['/blog/06-vue/Day05_生命周期_组件进阶','07-生命周期_组件进阶'],
+          ['/blog/06-vue/Day06_动态组件_插槽_自定义指令_tabbar案例','08-动态组件_插槽_自定义指令'],
+          ['/blog/06-vue/Day07_路由_vant组件库使用','09-路由_vant组件库使用'],
+          ['/blog/06-vue/核心问题','10-核心问题'],
+          ['/blog/06-vue/vuex','Vuex'],
+          ['/blog/06-vue/vue3','Vue3'],
+        ]
+      },
 
     ], // 侧边栏配置
     sidebarDepth: 2, // 侧边栏显示2级
