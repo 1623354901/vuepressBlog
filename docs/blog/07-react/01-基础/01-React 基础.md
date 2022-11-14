@@ -176,8 +176,7 @@ ReactDOM.render(title, document.getElementById('root'))
 - 繁琐不简洁
 - 不直观，无法一眼看出所描述的结构
 - 不优雅，开发体验不好
-
-![](./images/jsx的优点.png)
+<img src='./images/jsx的优点.png'>
 
 ### JSX简介 
 

@@ -21,8 +21,8 @@
 ### TypeScript 是什么
 
 - **`TypeScript` 简称：TS，是 JavaScript 的超集**，简单来说就是：JS 有的 TS 都有
+<img src='./images/TS是JS的超集.png'>
 
-![TS是JS的超集](./images/TS是JS的超集.png)
 
 - TypeScript = `Type` + JavaScript（在 JS 基础之上，**为 JS 添加了类型支持**）
 - TypeScript 是*微软*开发的开源编程语言，可以在任何运行 JavaScript 的地方运行
@@ -88,8 +88,7 @@
   - typescript 包：用来编译 TS 代码的包，提供了 `tsc` 命令，实现了 TS -> JS 的转化
   - *注意：Mac 电脑安装全局包时，需要添加 `sudo` 获取权限：`sudo npm i -g typescript`*  yarn 全局安装：`sudo yarn global add typescript`
 - 验证是否安装成功：tsc –v(查看 typescript 的版本)
-
-![TS 编译](./images/TS编译.png)
+<img src='./images/TS编译.png'>
 
 ###  编译并运行 TS 代码
 
